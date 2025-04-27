@@ -25,16 +25,16 @@ var file_options_proto_extTypes = []protoimpl.ExtensionInfo{
 	{
 		ExtendedType:  (*descriptorpb.MethodOptions)(nil),
 		ExtensionType: (*bool)(nil),
-		Field:         65001,
+		Field:         66000,
 		Name:          "incerceptor.exportclient",
-		Tag:           "varint,65001,opt,name=exportclient",
+		Tag:           "varint,66000,opt,name=exportclient",
 		Filename:      "options.proto",
 	},
 }
 
 // Extension fields to descriptorpb.MethodOptions.
 var (
-	// optional bool exportclient = 65001;
+	// optional bool exportclient = 66000;
 	E_Exportclient = &file_options_proto_extTypes[0]
 )
 
@@ -43,7 +43,7 @@ var File_options_proto protoreflect.FileDescriptor
 const file_options_proto_rawDesc = "" +
 	"\n" +
 	"\roptions.proto\x12\vincerceptor\x1a google/protobuf/descriptor.proto:D\n" +
-	"\fexportclient\x12\x1e.google.protobuf.MethodOptions\x18\xe9\xfb\x03 \x01(\bR\fexportclientB8Z6github.com/v3startlab/plugin/protoc-gen-go-interceptorb\x06proto3"
+	"\fexportclient\x12\x1e.google.protobuf.MethodOptions\x18Ѓ\x04 \x01(\bR\fexportclientB8Z6github.com/v3startlab/plugin/protoc-gen-go-interceptorb\x06proto3"
 
 var file_options_proto_goTypes = []any{
 	(*descriptorpb.MethodOptions)(nil), // 0: google.protobuf.MethodOptions
